@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="uk.ac.cityofglasgowcollege.assessment_3.CommentsActivity">
+
+    <Button
+        android:id="@+id/backToMenu_btn"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="203dp"
+        android:background="@android:color/background_light"
+        android:onClick="backToMenu_btn_Click"
+        android:text="Back to Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <Button
+        android:id="@+id/addComment_btn"
+        android:layout_width="182dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="-12dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="208dp"
+        android:background="@android:color/background_light"
+        android:onClick="writeComment_btn_Click"
+        android:text="Write a Comment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/commentTitle_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="The Comments for "
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <ListView
+        android:id="@+id/comments_lst"
+        android:layout_width="365dp"
+        android:layout_height="351dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:cacheColorHint="@android:color/background_light"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

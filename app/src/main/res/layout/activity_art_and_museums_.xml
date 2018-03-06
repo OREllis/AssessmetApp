@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="uk.ac.cityofglasgowcollege.assessment_3.ArtAndMuseums_Activity">
+
+    <Button
+        android:id="@+id/artComments_btn"
+        android:layout_width="182dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="-12dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="208dp"
+        android:background="@android:color/background_light"
+        android:onClick="artComments_btn_Click"
+        android:text="Comments"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/artBack_btn"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="203dp"
+        android:background="@android:color/background_light"
+        android:onClick="artBack_btnClick"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        tools:context="uk.ac.cityofglasgowcollege.assessment_3.Venues_Activity"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/kelvingrove_btn"
+        android:layout_width="418dp"
+        android:layout_height="233dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="kelvingrove_btn_Click"
+        android:scaleType="centerCrop"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kelvingrove_art_gallery_and_museum" />
+
+    <TextView
+        android:id="@+id/artAddress_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Argyle St,\nGlasgow G3 8AG"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <TextView
+        android:id="@+id/artName_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Kelvingrove Art Gallery\nand Museum"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <ScrollView
+        android:id="@+id/kelvingrove_sv"
+        android:layout_width="357dp"
+        android:layout_height="246dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/buchananText_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend quam adipiscing vitae proin. Ultricies mi quis hendrerit dolor magna eget est lorem. Vitae et leo duis ut. Aliquet enim tortor at auctor urna nunc id. Leo urna molestie at elementum. Aliquam id diam maecenas ultricies mi eget mauris pharetra et. Volutpat sed cras ornare arcu dui vivamus arcu felis. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Nunc vel risus commodo viverra maecenas accumsan. Egestas dui id ornare arcu odio ut. Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat.  Nibh nisl condimentum id venenatis a condimentum. Consequat id porta nibh venenatis cras sed felis eget. Neque gravida in fermentum et sollicitudin ac orci phasellus egestas. Amet consectetur adipiscing elit ut. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Auctor eu augue ut lectus arcu bibendum. Vitae justo eget magna fermentum iaculis. Mi quis hendrerit dolor magna eget est lorem. Facilisis volutpat est velit egestas dui id. Rutrum tellus pellentesque eu tincidunt tortor. Duis tristique sollicitudin nibh sit amet. Purus viverra accumsan in nisl nisi scelerisque. A iaculis at erat pellentesque adipiscing commodo.  A pellentesque sit amet porttitor eget dolor morbi. Sit amet nisl purus in mollis nunc sed id semper. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. Scelerisque felis imperdiet proin fermentum leo vel orci porta non. Felis bibendum ut tristique et egestas quis. Et netus et malesuada fames ac. Morbi quis commodo odio aenean sed. Egestas erat imperdiet sed euismod nisi. Ut venenatis tellus in metus vulputate eu scelerisque felis. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Vitae elementum curabitur vitae nunc sed velit. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus."
+                android:textColor="@android:color/background_light"
+                tools:layout_editor_absoluteX="129dp"
+                tools:layout_editor_absoluteY="175dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
